@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -21,12 +21,14 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,6 +86,20 @@
     <ClInclude Include="d3d\sprite.h" />
     <ClInclude Include="d3d\texture.h" />
     <ClInclude Include="dxut\core\DXUT.h" />
+    <ClInclude Include="dxut\core\DXUTenum.h" />
+    <ClInclude Include="dxut\core\DXUTmisc.h" />
+    <ClInclude Include="dxut\DXUTcamera.h" />
+    <ClInclude Include="dxut\DXUTgui.h" />
+    <ClInclude Include="dxut\DXUTguiIME.h" />
+    <ClInclude Include="dxut\DXUTLockFreePipe.h" />
+    <ClInclude Include="dxut\DXUTres.h" />
+    <ClInclude Include="dxut\DXUTsettingsdlg.h" />
+    <ClInclude Include="dxut\DXUTShapes.h" />
+    <ClInclude Include="dxut\ImeUi.h" />
+    <ClInclude Include="dxut\SDKmesh.h" />
+    <ClInclude Include="dxut\SDKmisc.h" />
+    <ClInclude Include="dxut\SDKsound.h" />
+    <ClInclude Include="dxut\SDKwavefile.h" />
     <ClInclude Include="dxwrap.h" />
     <ClInclude Include="sigslot.h" />
   </ItemGroup>
@@ -95,6 +111,19 @@
     <ClCompile Include="d3d\sprite.cpp" />
     <ClCompile Include="d3d\texture.cpp" />
     <ClCompile Include="dxut\core\DXUT.cpp" />
+    <ClCompile Include="dxut\core\DXUTenum.cpp" />
+    <ClCompile Include="dxut\core\DXUTmisc.cpp" />
+    <ClCompile Include="dxut\DXUTcamera.cpp" />
+    <ClCompile Include="dxut\DXUTgui.cpp" />
+    <ClCompile Include="dxut\DXUTguiIME.cpp" />
+    <ClCompile Include="dxut\DXUTres.cpp" />
+    <ClCompile Include="dxut\DXUTsettingsdlg.cpp" />
+    <ClCompile Include="dxut\DXUTShapes.cpp" />
+    <ClCompile Include="dxut\ImeUi.cpp" />
+    <ClCompile Include="dxut\SDKmesh.cpp" />
+    <ClCompile Include="dxut\SDKmisc.cpp" />
+    <ClCompile Include="dxut\SDKsound.cpp" />
+    <ClCompile Include="dxut\SDKwavefile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

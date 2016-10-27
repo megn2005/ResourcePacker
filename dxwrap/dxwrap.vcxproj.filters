@@ -53,6 +53,48 @@
     <ClInclude Include="dxut\core\DXUT.h">
       <Filter>dxut\core</Filter>
     </ClInclude>
+    <ClInclude Include="dxut\core\DXUTenum.h">
+      <Filter>dxut\core</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\core\DXUTmisc.h">
+      <Filter>dxut\core</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTcamera.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTgui.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTguiIME.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTLockFreePipe.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTres.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTsettingsdlg.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\DXUTShapes.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\ImeUi.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\SDKmesh.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\SDKmisc.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\SDKsound.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="dxut\SDKwavefile.h">
+      <Filter>dxut</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="d3d\device.cpp">
@@ -75,6 +117,45 @@
     </ClCompile>
     <ClCompile Include="dxut\core\DXUT.cpp">
       <Filter>dxut\core</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\core\DXUTenum.cpp">
+      <Filter>dxut\core</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\core\DXUTmisc.cpp">
+      <Filter>dxut\core</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\DXUTcamera.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\DXUTgui.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\DXUTguiIME.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\DXUTres.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\DXUTsettingsdlg.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\DXUTShapes.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\ImeUi.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\SDKmesh.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\SDKmisc.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\SDKsound.cpp">
+      <Filter>dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="dxut\SDKwavefile.cpp">
+      <Filter>dxut</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
